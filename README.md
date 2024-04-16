@@ -47,13 +47,26 @@ Setup and start the dev server:
 cd client # change directory to client
 yarn setup # run the setup script(only once)
 yarn start # start local dev server
-```sh
+cd client # change directory to client
+yarn setup # run the setup script(only once)
+yarn start # start local dev server``sh
 cd client # change directory to client
 yarn setup # run the setup script(only once)
 yarn start # start local dev server
 ```
 
 ##### Recommended versions
+rustc --version
+# rustc 1.75.0 (82e1608df 2023-12-21)
+
+wasm-pack --version
+# wasm-pack 0.10.3
+
+node --version
+# v18.15.0
+
+yarn --version
+# 1.22.19
 rustc --version
 # rustc 1.75.0 (82e1608df 2023-12-21)
 
