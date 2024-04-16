@@ -40,11 +40,25 @@ You can open an issue to request more crates.
 > **Note:** Playground is still in **beta** and everything is subject to change.
 
 ## Run locally
+cd client # change directory to client
+yarn setup # run the setup script(only once)
+yarn start # start local dev server
+# 1.22.19
 
 You can run the client locally by cloning the repository and running the following commands in the project directory.
 
 Setup and start the dev server:
+rustc --version
+# rustc 1.75.0 (82e1608df 2023-12-21)
 
+wasm-pack --version
+# wasm-pack 0.10.3
+
+node --version
+# v18.15.0
+
+yarn --version
+# 1.22.19
 ```sh
 cd client # change directory to client
 yarn setup # run the setup script(only once)
